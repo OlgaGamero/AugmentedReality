@@ -1,0 +1,25 @@
+﻿Build started 09/12/2014 10:50:52 p.m..
+     1>Project "C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\ARopencv\ARopencv.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ARopencv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ARopencv.cpp
+         ARopencv.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\Debug\ARopencv.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ARopencv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\Debug\ARopencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\Debug\ARopencv.lib" /MACHINE:X86 Debug\ARopencv.obj
+         Debug\pattern.obj
+         Debug\patterndetector.obj
+         Debug\stdafx.obj
+     1>ARopencv.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ARopencv.vcxproj -> C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\Debug\ARopencv.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\Debug\ARopencv.exe;#1" /manifest Debug\ARopencv.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ARopencv.unsuccessfulbuild".
+         Touching "Debug\ARopencv.lastbuildstate".
+     1>Done Building Project "C:\Users\Olga\Documents\Visual Studio 2010\Projects\ARopencv\ARopencv\ARopencv.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.21
